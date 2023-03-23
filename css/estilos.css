@@ -1,0 +1,177 @@
+
+.main-container {
+    display:flex;
+    width: 1200px;
+}
+
+aside {
+background-color:#BFB3A8 ;
+width: 30%;
+margin-right: 3%;
+}
+
+aside * {
+color: white;
+}
+aside h2 {
+    text-transform: capitalize;
+    letter-spacing: 5px;
+    
+}
+
+aside section h2:first-child {
+border-bottom: 5px solid white ;
+}
+#Estilo img {
+    border-radius: 170px;
+    }
+
+    main section h2{
+        text-transform: uppercase;
+        letter-spacing: 5px;
+    }
+.Hero {
+    background-color:#EDC0AF
+       
+}    
+.Hero h2 {
+ color: white; 
+ border-top: 2px solid white;
+  
+}
+
+.Hero {
+    box-shadow:3px 3px 30px 5px #647087 inset;
+    padding: 15% 0%;
+    text-align: center;
+}
+h1,
+h2 {
+text-transform: uppercase;
+letter-spacing: 15px;
+}
+
+
+.About-menu {
+background-color:#F7DDC3
+}
+
+.About-menu h2 {
+background-color: white;
+
+}
+.About-menu p {
+    line-height: 2em;
+    padding: 5px;
+    
+}
+
+article h3 {
+font-weight: bold;
+}
+
+article h4 {
+font-weight: bold;
+
+}
+article {
+list-style-type:square;
+}
+
+*{
+    color: black;
+}
+p {
+    color: brown;
+}
+.Contacto {
+background-color:white;
+}
+ul {
+list-style-type:none ;
+}
+
+article ul {
+list-style-type: square;
+}
+#Estilo img {
+border-radius: 100px;
+}
+
+/* referencia*/
+
+.referencia {
+display:flex;
+flex-wrap: wrap;
+background-color:#F7DDC3;
+}
+.referencia article {
+width: 50%;
+text-align: center;
+}
+
+/* dl */
+
+dt,
+dd {
+line-height: 1.5em;
+border-top: 1px solid white;
+}
+
+dt:last-of-type,
+dd:last-of-type {
+    border-bottom: 1px solid white;
+}
+
+dl {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+dt, 
+dd {
+  flex-basis:40%;
+  margin: 0%;
+}
+dt { 
+    font-weight: bolder;
+}
+
+/* Redes */
+.Redes
+
+*{box-sizing:border-box;}
+
+		.Redes{
+			width:95%;
+			max-width:900px;
+			padding:32px 64px;
+			margin:auto;
+		}
+
+		.Redes{
+			
+			width:48px;
+			position:fixed;
+			top:50px;
+			right:0;
+		}
+
+		
+
+		.Redes{
+			
+			top:50%;
+			height:205px;
+			margin-top:-100px;
+        		}
+
+
+/* progress*/
+
+progress {
+display: block;
+width: 80%;
+font-size: 1rem;
+}
+
